@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                 String name = "Mikael";
-                int age = 23;
+                String age = "23";
                 String school = "HiS";
 
                 Bundle extras = new Bundle();
                 extras.putString("name", "Mikael");
-                extras.putInt("age", 23);
+                extras.putString("age", "23");
                 extras.putString("school", "His");
 
                 intent.putExtras(extras);
